@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+   
+
+}
+.fade {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    
+}
+.fade-in {
+    opacity: 1;
+}
+.navbar{
+   list-style: none;
+    background: #B7E0FF;
+}
+.hero{
+    background: #B7E0FF;
+}
+.hed-text{
+    color:black;
+    font-size: 8rem;
+    
+}
+#about{
+    background: #F9F7F6;
+}
+#myself{
+    color: rgb(16, 16, 188);
+}
+#follow{
+    color: rgb(16, 16, 188);
+}
+#python{
+    color: rgb(16, 16, 188);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+#ima{
+    color: red;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.imageround img{
+    border: 3px solid black;
+}
+#skills{
+    background: #697565;
+}
+#backend{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+#education{
+    background-color: #ECDFCC;
+}
+#projects{
+    background-color: #EAD8B1;
+}
+#contact{
+    background-color: #B7E0FF;
+}
+
